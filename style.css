@@ -151,7 +151,7 @@ h2 {
     line-height: 1.2;
     text-align: center;
     color: rgba(119, 119, 119, 1);
-    margin-bottom: 40px;
+    margin-bottom: 76px;
 
 }
 
@@ -169,6 +169,8 @@ h2 {
     padding-bottom: 102px;
 
 }
+
+
 
 .containers {
     margin: 0 auto;
@@ -249,6 +251,7 @@ h3 {
     padding-top: 54px;
     line-height: 1.2;
     color: rgba(255, 255, 255, 1);
+    padding-bottom: 15px;
 }
 
 .contact-form {
@@ -258,18 +261,6 @@ h3 {
     text-align: center;
 }
 
-.Title_Contact_Us {
-    font-size: 40px;
-    font-family: "Montserrat";
-    color: rgba(255, 255, 255, 1);
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: left;
-    position: absolute;
-    left: 571.844px;
-    top: 743px;
-    z-index: 20;
-}
 
 
 .container {
@@ -279,8 +270,8 @@ h3 {
     background-color: rgba(34, 34, 34, 1);
     background-image: url(./image/map\ image.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-position: right;
+    background-position: center right;
+
 }
 
 .contact-form__input {
@@ -379,18 +370,4 @@ h3 {
 
 .contact-form__input:required:focus:invalid:not(:placeholder-shown) {
     border: 3px solid red;
-}
-
-.Your_Message {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(187, 187, 187);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 734.921px;
-    top: 913.6px;
-    z-index: 11;
 }
